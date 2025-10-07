@@ -891,8 +891,8 @@
 			"id": "finishNode-007c42dd-35c9-44d2-a41e-20f94c24ce52",
 			"type": "finishNode",
 			"position": {
-				"x": 2771,
-				"y": 443
+				"x": 2889,
+				"y": 411
 			},
 			"data": {
 				"id": "finishNode-007c42dd-35c9-44d2-a41e-20f94c24ce52",
@@ -919,7 +919,8 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "whenNode-f66079c5-2d85-4d15-bba5-4623d7475e9e",
@@ -1257,6 +1258,40 @@
 				"height": 124
 			},
 			"selected": false
+		},
+		{
+			"id": "quitNode-faf787df-f33b-430f-b96f-c5ce3db1c619",
+			"type": "quitNode",
+			"position": {
+				"x": 2771,
+				"y": 889
+			},
+			"data": {
+				"id": "quitNode-faf787df-f33b-430f-b96f-c5ce3db1c619",
+				"type": "quitNode",
+				"position": {
+					"x": 2771,
+					"y": 889
+				},
+				"previousNodeId": "assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add",
+				"agamaData": {
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "",
+					"variableField": "true",
+					"valueField": "true",
+					"conditionInputField": "is",
+					"nodeIcon": "material-symbols:pip-exit-outline-rounded"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1865,11 +1900,30 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-ffef656c-292e-444d-b50b-66b401c0f1b2"
+		},
+		{
+			"id": "assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add-quitNode-faf787df-f33b-430f-b96f-c5ce3db1c619",
+			"type": "default",
+			"source": "assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add",
+			"target": "quitNode-faf787df-f33b-430f-b96f-c5ce3db1c619",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add"
 		}
 	],
 	"viewport": {
-		"x": -955.0772119036121,
-		"y": -67.19465854333987,
-		"zoom": 0.5462408565514187
+		"x": -922.0416564941406,
+		"y": -5.5,
+		"zoom": 0.5
 	}
 }
