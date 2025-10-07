@@ -1257,40 +1257,6 @@
 				"height": 124
 			},
 			"selected": false
-		},
-		{
-			"id": "quitNode-b3e27e4e-924e-4a21-8c59-04bc52c4e79a",
-			"type": "quitNode",
-			"position": {
-				"x": 2771,
-				"y": 889
-			},
-			"data": {
-				"id": "quitNode-b3e27e4e-924e-4a21-8c59-04bc52c4e79a",
-				"type": "quitNode",
-				"position": {
-					"x": 2771,
-					"y": 889
-				},
-				"previousNodeId": "assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add",
-				"agamaData": {
-					"nodeColor": "",
-					"titleColor": "",
-					"descColor": "",
-					"displayName": "",
-					"hasComment": true,
-					"comment": "",
-					"variableField": "true",
-					"valueField": "true",
-					"conditionInputField": "is",
-					"nodeIcon": "material-symbols:pip-exit-outline-rounded"
-				}
-			},
-			"measured": {
-				"width": 170,
-				"height": 124
-			},
-			"selected": true
 		}
 	],
 	"edges": [
@@ -1899,25 +1865,6 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_assignmentNode-ffef656c-292e-444d-b50b-66b401c0f1b2"
-		},
-		{
-			"id": "assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add-quitNode-b3e27e4e-924e-4a21-8c59-04bc52c4e79a",
-			"type": "default",
-			"source": "assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add",
-			"target": "quitNode-b3e27e4e-924e-4a21-8c59-04bc52c4e79a",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "",
-			"labelBgStyle": {
-				"fill": "#009688",
-				"color": "#ffffff",
-				"fillOpacity": 0.7
-			},
-			"labelShowBg": true,
-			"sourceHandle": "source_assignmentNode-e83d1456-9fdd-4e3c-9ac2-52e8c0a17add"
 		}
 	],
 	"viewport": {
