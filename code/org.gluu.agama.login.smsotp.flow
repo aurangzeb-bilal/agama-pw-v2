@@ -14,8 +14,8 @@ maxSMS = Repeat 4 times max
      //  Show UI to collect OTP code from user.
      otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
      When otpCreds.changenumber is "yes"
-          it_vrone = {success:false, error: "Your error message here"}
-          Finish it_vrone
+          it_ucder = {success:false, error: "Your error message here"}
+          Finish it_ucder
      Otherwise
           When otpCreds.hasRequestedNewCode is "yes"
                // Log new code request
@@ -43,6 +43,9 @@ maxSMS = Repeat 4 times max
                otpUiFeedback.errorMessage = ""
                isResending = true
           Otherwise
+               // Check if just resent
+               When isResending is true
+                    isResending = false
                //  Add log entry with collected code in log file.
                Log "@info Information provided by the user is : " otpCreds.code
                //  Validate the OTP code provided by the user.
