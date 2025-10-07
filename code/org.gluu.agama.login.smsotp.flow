@@ -5,17 +5,17 @@ Flow org.gluu.agama.login.smsotp
      Inputs validationService username phone
 // Log flow imputs provided by the flow caller.
 Log "@info Information received from the caller: " username phone
-otpValidationResult = false
 otpUiFeedback = {}
-otpUiFeedback.infoMessage = "An OTP code has been send to your register mobile number."
 resendCount = 0
-isResending = false
-maxSMS = Repeat 4 times max
+validationAttempts = 0
+maxSMS = Repeat 20 times max
+     otpUiFeedback.errorMessage = ""
+     otpUiFeedback.infoMessage = "An OTP code has been send to your register mobile number."
      //  Show UI to collect OTP code from user.
      otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
      When otpCreds.changenumber is "yes"
-          it_ucder = {success:false, error: "Your error message here"}
-          Finish it_ucder
+          it_uqzuv = {success:false, error: "Your error message here"}
+          Finish it_uqzuv
      Otherwise
           When otpCreds.hasRequestedNewCode is "yes"
                // Log new code request
@@ -48,6 +48,13 @@ maxSMS = Repeat 4 times max
                     isResending = false
                //  Add log entry with collected code in log file.
                Log "@info Information provided by the user is : " otpCreds.code
+               validationAttempts | Increment validation counter = Call org.gluu.agama.login.CounterHelper#increment validationAttempts
+               Log "@info Validation attempt number: " validationAttempts
+               // Check validation limit
+               When validationAttempts is 4
+                    Log "@info Maximum validation attempts exceeded"
+                    it_otpmax = { success: false, error: "ExceededTheNumberOfAttemptsAllowed" }
+                    Finish  it_otpmax
                //  Validate the OTP code provided by the user.
                otpValidationResult = Call validationService validateOTPCode phone otpCreds.code
                // Add log entry withvalidation result in log file.
@@ -65,6 +72,6 @@ maxSMS = Repeat 4 times max
                     otpUiFeedback.infoMessage = ""
 // "OTP verification loop completed"
 Log "@info OTP verification loop completed"
-it_otpmax = { success: false, error: "ExceededTheNumberOfAttemptsAllowed" }
+it_loopmax = { success: false, error: "UnexpectedLoopCompletion" }
 // SMS OTP error
-Finish it_otpmax
+Finish it_loopmax
