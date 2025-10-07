@@ -31,9 +31,9 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"deletable": false,
 			"dragging": false
 		},
@@ -63,7 +63,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -109,7 +109,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -146,7 +146,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -177,7 +177,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -208,7 +208,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -238,7 +238,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			}
 		},
 		{
@@ -271,7 +271,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -338,7 +338,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -404,7 +404,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -445,7 +445,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -484,7 +484,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -515,7 +515,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -551,7 +551,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -583,7 +583,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -618,7 +618,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -704,7 +704,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -741,7 +741,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -819,7 +819,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -854,7 +854,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -895,7 +895,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -976,7 +976,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1009,7 +1009,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1044,7 +1044,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1088,7 +1088,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1122,7 +1122,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1164,7 +1164,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1199,7 +1199,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1243,7 +1243,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1286,7 +1286,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1323,7 +1323,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1357,7 +1357,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1400,7 +1400,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1439,7 +1439,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1474,7 +1474,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1510,7 +1510,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1545,7 +1545,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1583,7 +1583,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1616,7 +1616,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1651,7 +1651,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1694,7 +1694,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -1778,7 +1778,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1811,7 +1811,7 @@
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
 			"selected": false
 		},
@@ -1858,21 +1858,205 @@
 			"selected": false
 		},
 		{
-			"id": "assignmentNode-7eb13766-56ea-4a10-91b8-315b54a1c98a",
-			"type": "assignmentNode",
+			"id": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
+			"type": "whenNode",
 			"position": {
-				"x": 5384.531303949055,
-				"y": 987.9311233460198
+				"x": 5365.166982379811,
+				"y": 938.9507805532282
 			},
 			"data": {
-				"id": "assignmentNode-7eb13766-56ea-4a10-91b8-315b54a1c98a",
-				"type": "assignmentNode",
+				"id": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
+				"type": "whenNode",
 				"position": {
 					"x": 5384.531303949055,
 					"y": 987.9311233460198
 				},
 				"previousNodeId": "whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29",
 				"branching": "otherwise",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "otpFeedBack.error",
+							"operator": "is",
+							"dataValue": "\"ExceededResendAttempts\"",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "\"ExceededResendAttempts\""
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318",
+			"type": "logNode",
+			"position": {
+				"x": 5617.261065720597,
+				"y": 1022.4197534179197
+			},
+			"data": {
+				"id": "logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318",
+				"type": "logNode",
+				"position": {
+					"x": 5634.531303949055,
+					"y": 1187.9311233460198
+				},
+				"previousNodeId": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
+				"branching": "success",
+				"agamaData": {
+					"logMessage": "\"Resend attempts exceeded in OTP flow\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "Log resend exceeded",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true,
+			"dragging": false
+		},
+		{
+			"id": "finishNode-13453510-e97b-4bb0-8fa2-c20261931de4",
+			"type": "finishNode",
+			"position": {
+				"x": 5884.128664916694,
+				"y": 961.6113492874179
+			},
+			"data": {
+				"id": "finishNode-13453510-e97b-4bb0-8fa2-c20261931de4",
+				"type": "finishNode",
+				"position": {
+					"x": 5638.490512245729,
+					"y": 1145.7852469894317
+				},
+				"previousNodeId": "logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318",
+				"agamaData": {
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "End flow - resend exceeded",
+					"hasComment": true,
+					"comment": "",
+					"flowfilename": "",
+					"returnVariable": "otpFeedBack",
+					"finishMode": "withVariable",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03",
+			"type": "logNode",
+			"position": {
+				"x": 5961.480203349202,
+				"y": 813.7046235067102
+			},
+			"data": {
+				"id": "logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03",
+				"type": "logNode",
+				"position": {
+					"x": 5636.809459427789,
+					"y": 1386.6726250744937
+				},
+				"previousNodeId": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+				"branching": "success",
+				"agamaData": {
+					"logMessage": "\"OTP validation attempts exceeded\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "Log OTP exceeded",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "finishNode-7437d218-4ab9-4d08-bf14-626e7c442566",
+			"type": "finishNode",
+			"position": {
+				"x": 6206.670680585643,
+				"y": 917.8669712460949
+			},
+			"data": {
+				"id": "finishNode-7437d218-4ab9-4d08-bf14-626e7c442566",
+				"type": "finishNode",
+				"position": {
+					"x": 5866.306060119179,
+					"y": 1157.7179994616772
+				},
+				"previousNodeId": "logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03",
+				"agamaData": {
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "End flow - OTP exceeded",
+					"hasComment": true,
+					"comment": "",
+					"flowfilename": "",
+					"returnVariable": "otpFeedBack",
+					"finishMode": "withVariable",
+					"nodeIcon": "material-symbols:line-end-square-rounded"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "assignmentNode-4b412102-b1ec-48c8-a307-21d6472351a0",
+			"type": "assignmentNode",
+			"position": {
+				"x": 6166.801752842644,
+				"y": 647.301542562622
+			},
+			"data": {
+				"id": "assignmentNode-4b412102-b1ec-48c8-a307-21d6472351a0",
+				"type": "assignmentNode",
+				"position": {
+					"x": 5636.809459427789,
+					"y": 1186.6726250744937
+				},
+				"previousNodeId": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+				"branching": "continue",
 				"agamaData": {
 					"assignments": [
 						{
@@ -1885,16 +2069,61 @@
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
-					"displayName": "",
+					"displayName": "Set retry error message",
 					"hasComment": true,
-					"comment": ""
+					"comment": "For other errors, allow retry with different number"
 				}
 			},
 			"measured": {
 				"width": 170,
-				"height": 123
+				"height": 124
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+			"type": "whenNode",
+			"position": {
+				"x": 5586.690038895631,
+				"y": 834.1556285314415
+			},
+			"data": {
+				"id": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+				"type": "whenNode",
+				"position": {
+					"x": 5615.166982379811,
+					"y": 938.9507805532282
+				},
+				"previousNodeId": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
+				"branching": "continue",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "otpFeedBack.error",
+							"operator": "is",
+							"dataValue": "\"ExceededTheNumberOfAttemptsAllowed\"",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "Check if OTP attempts exceeded"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
+			"selected": false,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -2821,10 +3050,10 @@
 			"id": "xy-edge__whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29source_whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29_success-callNode-1d2f389c-bd60-4956-9473-0327e4ed8e4atarget_callNode-1d2f389c-bd60-4956-9473-0327e4ed8e4a"
 		},
 		{
-			"id": "whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29-assignmentNode-7eb13766-56ea-4a10-91b8-315b54a1c98a",
+			"id": "whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29-whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
 			"type": "default",
 			"source": "whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29",
-			"target": "assignmentNode-7eb13766-56ea-4a10-91b8-315b54a1c98a",
+			"target": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
 			"labelBgPadding": [
 				8,
 				4
@@ -2838,11 +3067,123 @@
 			},
 			"labelShowBg": true,
 			"sourceHandle": "source_whenNode-c0e73cb7-0559-4cab-84c5-f07177d03f29_otherwise"
+		},
+		{
+			"id": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8-logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318",
+			"type": "default",
+			"source": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
+			"target": "logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "Condition met",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8_success"
+		},
+		{
+			"id": "logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318-finishNode-13453510-e97b-4bb0-8fa2-c20261931de4",
+			"type": "default",
+			"source": "logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318",
+			"target": "finishNode-13453510-e97b-4bb0-8fa2-c20261931de4",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-f7ff4c2e-8c20-4433-8ef1-7a00123ea318"
+		},
+		{
+			"id": "logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03-finishNode-7437d218-4ab9-4d08-bf14-626e7c442566",
+			"type": "default",
+			"source": "logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03",
+			"target": "finishNode-7437d218-4ab9-4d08-bf14-626e7c442566",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03"
+		},
+		{
+			"id": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8-whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+			"type": "default",
+			"source": "whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8",
+			"target": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_whenNode-60ce532e-1ce1-4b24-a4d3-bc2585c85ef8_continue"
+		},
+		{
+			"source": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+			"sourceHandle": "source_whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849_success",
+			"target": "logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03",
+			"targetHandle": "target_logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03",
+			"label": "Condition met",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"id": "xy-edge__whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849source_whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849_success-logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03target_logNode-84e588f5-13a5-4ce1-9c05-eaff071cee03"
+		},
+		{
+			"source": "whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849",
+			"sourceHandle": "source_whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849_continue",
+			"target": "assignmentNode-4b412102-b1ec-48c8-a307-21d6472351a0",
+			"targetHandle": "target_assignmentNode-4b412102-b1ec-48c8-a307-21d6472351a0",
+			"label": "continue",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"id": "xy-edge__whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849source_whenNode-65e3cccd-c938-40d3-bbc4-54bf93f8f849_continue-assignmentNode-4b412102-b1ec-48c8-a307-21d6472351a0target_assignmentNode-4b412102-b1ec-48c8-a307-21d6472351a0"
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
-		"zoom": 1
+		"x": -3924.687876603538,
+		"y": -194.046691151304,
+		"zoom": 0.776002813956045
 	}
 }
