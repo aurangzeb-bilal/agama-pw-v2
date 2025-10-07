@@ -1,0 +1,57 @@
+// Start subflow for user otp code validation
+Flow org.gluu.agama.login.smsotp
+     Basepath ""
+     Timeout 900 seconds
+     Inputs validationService username phone
+// Log flow imputs provided by the flow caller.
+Log "@info Information received from the caller: " username phone
+otpValidationResult = false
+otpUiFeedback = {}
+otpUiFeedback.errorMessage = ""
+otpUiFeedback.infoMessage = "An OTP code has been send to your register mobile number."
+maxSMS = Repeat 4 times max
+     //  Show UI to collect OTP code from user.
+     otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
+     When otpCreds.changenumber is "yes"
+          it_xbcct = {success:false, error: "Your error message here"}
+          Finish it_xbcct
+     Otherwise
+          When otpCreds.hasRequestedNewCode is "yes"
+               // Log new code request
+               Log "@info User has requested a new code."
+               // Resend otp
+               resendHasSucceed = Call validationService sendOTPCode username phone
+               When resendHasSucceed is null
+                    // Fail to resend new code to user.
+                    Log "@info Fail to resend new code to user. " resendHasSucceed
+                    // "Error occurs while sending new code to you. Please contact site administrator."
+                    otpUiFeedback.errorMessage = "Error occurs while sending new code to you. Please contact site administrator."
+                    otpUiFeedback.infoMessage = ""
+               // New OTP code send successfully!
+               Log "@info New OTP code send successfully!" resendHasSucceed
+               // "A new OTP code has been send to you on your mobile phone."
+               otpUiFeedback.infoMessage = "An OTP code has been send to your register mobile number."
+               otpUiFeedback.errorMessage = ""
+          Otherwise
+               //  Add log entry with collected code in log file.
+               Log "@info Information provided by the user is : " otpCreds.code
+               //  Validate the OTP code provided by the user.
+               otpValidationResult = Call validationService validateOTPCode phone otpCreds.code
+               // Add log entry withvalidation result in log file.
+               Log "@info OTP validation result is:" otpValidationResult
+               // If otp validation was successful
+               When otpValidationResult is true
+                    Log "@info OTP validated Successfully"
+                    // OTP flow completed successfully.
+                    Finish otpValidationResult
+               Otherwise
+                    // The maximum number of attempt has been reached.
+                    Log "@info Invalid code provided "
+                    // Provide feedback to user.
+                    otpUiFeedback.errorMessage = "Invalid code provided."
+                    otpUiFeedback.infoMessage = ""
+// "OTP verification loop completed"
+Log "@info OTP verification loop completed"
+it_otpmax = { success: false, error: "ExceededTheNumberOfAttemptsAllowed" }
+// SMS OTP error
+Finish it_otpmax
