@@ -9,13 +9,11 @@ otpUiFeedback = {}
 resendCount = 0
 validationAttempts = 0
 maxSMS = Repeat 20 times max
-     otpUiFeedback.errorMessage = ""
-     otpUiFeedback.infoMessage = "An OTP code has been send to your register mobile number."
      //  Show UI to collect OTP code from user.
      otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
      When otpCreds.changenumber is "yes"
-          it_jcfzm = {success:false, error: "Your error message here"}
-          Finish it_jcfzm
+          it_szfyw = {success:false, error: "Your error message here"}
+          Finish it_szfyw
      Otherwise
           When otpCreds.hasRequestedNewCode is "yes"
                // Log new code request
