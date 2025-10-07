@@ -1455,7 +1455,7 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "",
-					"asssignedVariableName": "validationAttemps"
+					"asssignedVariableName": "validationAttempts"
 				}
 			},
 			"measured": {
@@ -1520,7 +1520,7 @@
 					"conditionInputField": "",
 					"conditions": [
 						{
-							"variable": "validationAttempts",
+							"variable": "resendCount",
 							"operator": "is",
 							"dataValue": "4",
 							"combinator": "none"
@@ -1613,7 +1613,8 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "finishNode-d06aaaab-8425-4817-ae7b-b0a6118fceae",
@@ -2447,8 +2448,8 @@
 		}
 	],
 	"viewport": {
-		"x": -315.30944126485383,
-		"y": 223.4574371229055,
-		"zoom": 0.6241680114016862
+		"x": -889.2904497490288,
+		"y": 500.83784577504343,
+		"zoom": 0.6368652494582381
 	}
 }
