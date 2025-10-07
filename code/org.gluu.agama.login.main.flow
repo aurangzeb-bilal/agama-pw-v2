@@ -68,6 +68,15 @@ Repeat 6 times max
                                    // Password Vealidation completed successfully!
                                    Finish credentials.username
                               Otherwise
+                                   // "ExceededResendAttempts"
+                                   When otpFeedBack.error is "ExceededResendAttempts"
+                                        Log "@info Resend attempts exceeded in OTP flow"
+                                        Finish otpFeedBack
+                                   // Check if OTP attempts exceeded
+                                   When otpFeedBack.error is "ExceededTheNumberOfAttemptsAllowed"
+                                        Log "@info OTP validation attempts exceeded"
+                                        Finish otpFeedBack
+                                   // For other errors, allow retry with different number
                                    uiFeedback.errorMessage = "Please try again with a different mobile number."
                          Otherwise
                               // "This phone is already used by another account. Please enter a different one.
@@ -91,5 +100,5 @@ Repeat 6 times max
 // The login flow will end here with failure.
 Log "@info The maximum login attempt has been reached!"
 // Maximum attempts reached. Password validation failed!
-it_iddba = {success:false, error: "Password validation failed!"}
-Finish it_iddba
+it_ebtxp = {success:false, error: "Password validation failed!"}
+Finish it_ebtxp
