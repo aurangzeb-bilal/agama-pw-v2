@@ -14,8 +14,8 @@ maxSMS = Repeat 20 times max
      //  Show UI to collect OTP code from user.
      otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
      When otpCreds.changenumber is "yes"
-          it_phbwx = {success:false, error: "Your error message here"}
-          Finish it_phbwx
+          it_sdxtx = {success:false, error: "Your error message here"}
+          Finish it_sdxtx
      Otherwise
           When otpCreds.hasRequestedNewCode is "yes"
                // Log new code request
@@ -50,26 +50,27 @@ maxSMS = Repeat 20 times max
                Log "@info Information provided by the user is : " otpCreds.code
                validationAttempts = Call org.gluu.agama.login.CounterHelper#increment validationAttempts
                Log "@info Validation attempt number: " validationAttempts
-               // Check validation limit
+               // Check validation
                When validationAttempts is 4
                     Log "@info Maximum validation attempts exceeded"
                     it_otpmax = { success: false, error: "ExceededTheNumberOfAttemptsAllowed" }
                     Finish  it_otpmax
-               //  Validate the OTP code provided by the user.
-               otpValidationResult = Call validationService validateOTPCode phone otpCreds.code
-               // Add log entry withvalidation result in log file.
-               Log "@info OTP validation result is:" otpValidationResult
-               // If otp validation was successful
-               When otpValidationResult is true
-                    Log "@info OTP validated Successfully"
-                    // OTP flow completed successfully.
-                    Finish otpValidationResult
                Otherwise
-                    // The maximum number of attempt has been reached.
-                    Log "@info Invalid code provided "
-                    // Provide feedback to user.
-                    otpUiFeedback.errorMessage = "Invalid code provided."
-                    otpUiFeedback.infoMessage = ""
+                    //  Validate the OTP code provided by the user.
+                    otpValidationResult = Call validationService validateOTPCode phone otpCreds.code
+                    // Add log entry withvalidation result in log file.
+                    Log "@info OTP validation result is:" otpValidationResult
+                    // If otp validation was successful
+                    When otpValidationResult is true
+                         Log "@info OTP validated Successfully"
+                         // OTP flow completed successfully.
+                         Finish otpValidationResult
+                    Otherwise
+                         // The maximum number of attempt has been reached.
+                         Log "@info Invalid code provided "
+                         // Provide feedback to user.
+                         otpUiFeedback.errorMessage = "Invalid code provided."
+                         otpUiFeedback.infoMessage = ""
 // "OTP verification loop completed"
 Log "@info OTP verification loop completed"
 it_loopmax = { success: false, error: "UnexpectedLoopCompletion" }
