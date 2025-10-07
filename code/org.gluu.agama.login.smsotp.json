@@ -1281,16 +1281,17 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "",
-					"variableField": "",
-					"valueField": "",
-					"conditionInputField": "",
+					"variableField": "true",
+					"valueField": "true",
+					"conditionInputField": "is",
 					"nodeIcon": "material-symbols:pip-exit-outline-rounded"
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1921,8 +1922,8 @@
 		}
 	],
 	"viewport": {
-		"x": -922.0416564941406,
-		"y": -5.5,
-		"zoom": 0.5
+		"x": -1434.0122159604502,
+		"y": -178.58577306129177,
+		"zoom": 0.6601560074650322
 	}
 }
