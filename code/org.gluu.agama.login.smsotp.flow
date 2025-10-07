@@ -14,8 +14,8 @@ maxSMS = Repeat 4 times max
      //  Show UI to collect OTP code from user.
      otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
      When otpCreds.changenumber is "yes"
-          it_xjzbi = {success:false, error: "Your error message here"}
-          Finish it_xjzbi
+          it_lbadz = {success:false, error: "Your error message here"}
+          Finish it_lbadz
      Otherwise
           When otpCreds.hasRequestedNewCode is "yes"
                // Log new code request
@@ -35,7 +35,7 @@ maxSMS = Repeat 4 times max
                     // "Error occurs while sending new code to you. Please contact site administrator."
                     otpUiFeedback.errorMessage = "Error occurs while sending new code to you. Please contact site administrator."
                     otpUiFeedback.infoMessage = ""
-                    Quit When __________ __________ __________
+                    Quit When true is true
                // New OTP code send successfully!
                Log "@info New OTP code send successfully!" resendHasSucceed
                // "A new OTP code has been send to you on your mobile phone."
