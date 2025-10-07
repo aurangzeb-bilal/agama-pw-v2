@@ -1443,7 +1443,7 @@
 					"javaClassName": "org.gluu.agama.login.CounterHelper",
 					"javaMethodName": "increment",
 					"javaVariableName": "",
-					"exceptionVariableField": "Increment validation counter",
+					"exceptionVariableField": "",
 					"callType": "Call static method",
 					"arguments": [
 						"validationAttempts"
