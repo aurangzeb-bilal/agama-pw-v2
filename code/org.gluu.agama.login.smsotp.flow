@@ -9,16 +9,24 @@ otpValidationResult = false
 otpUiFeedback = {}
 otpUiFeedback.errorMessage = ""
 otpUiFeedback.infoMessage = "An OTP code has been send to your register mobile number."
+resendCount = 0
 maxSMS = Repeat 4 times max
      //  Show UI to collect OTP code from user.
      otpCreds = RRF "smsOtp.ftlh" otpUiFeedback
      When otpCreds.changenumber is "yes"
-          it_xbcct = {success:false, error: "Your error message here"}
-          Finish it_xbcct
+          it_zcecp = {success:false, error: "Your error message here"}
+          Finish it_zcecp
      Otherwise
           When otpCreds.hasRequestedNewCode is "yes"
                // Log new code request
                Log "@info User has requested a new code."
+               When resendCount is 3
+                    Log "@info Maximum resend attempts exceeded"
+                    it_resend = {success:false, error: "ExceededResendAttempts"}
+                    Finish it_resend
+               // Increment resend counter using helper
+               resendCount = Call org.gluu.agama.login.CounterHelper#increment resendCount
+               Log "@info Resend attempt number: " resendCount
                // Resend otp
                resendHasSucceed = Call validationService sendOTPCode username phone
                When resendHasSucceed is null
